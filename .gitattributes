@@ -62,3 +62,14 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 #для скрина
+* text=auto
+
+*.cs     text eol=lf
+*.xaml   text eol=lf
+*.csproj text eol=lf
+*.sln    text eol=lf
+
+*.png binary
+*.jpg binary
+*.dll binary
+*.exe binary
